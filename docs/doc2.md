@@ -1,6 +1,6 @@
 ---
 id: doc2
-title: Document Number 2
+title: Getting Started
 ---
 
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+The easiest way to get started with a11ywatch is to use Docker [a11ywatch](https://github.com/A11yWatch/a11ywatch).

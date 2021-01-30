@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-CMD [ "yarn", "run", "start"]
+CMD [ "yarn", "run", "start", "--port", "3001" ]

@@ -1,8 +1,8 @@
 module.exports = {
-  title: "A11ywatch",
-  tagline: "Website productivity improvement",
+  title: "A11yWatch",
+  tagline: "Website Productivity Improvement",
   url: "https://a11ywatch.github.io/a11ywatch-docs",
-  baseUrl: "/",
+  baseUrl: process.env.NODE_ENV === "production" ? "/a11ywatch-docs/" : "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -12,7 +12,7 @@ module.exports = {
     navbar: {
       title: "A11yWatch",
       logo: {
-        alt: "My Site Logo",
+        alt: "A11yWatch Logo",
         src: "img/logo.svg"
       },
       items: [
@@ -24,7 +24,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/a11ywatch/a11ywatch",
           label: "GitHub",
           position: "right"
         }
@@ -41,7 +41,7 @@ module.exports = {
               to: "docs/"
             },
             {
-              label: "Second Doc",
+              label: "Getting Started",
               to: "docs/doc2/"
             }
           ]
@@ -77,7 +77,7 @@ module.exports = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} A11yWatch, LLC. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} A11yWatch, LLC.`
     }
   },
   presets: [
@@ -87,12 +87,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/a11ywatch-docs/docusaurus/edit/master/website/"
+            "https://github.com/a11ywatch/a11ywatch-docs/edit/master/website/"
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/a11ywatch-docs/docusaurus/edit/master/website/blog/"
+            "https://github.com/a11ywatch/a11ywatch-docs/edit/master/website/blog/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
