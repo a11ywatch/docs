@@ -7,4 +7,8 @@ services:
       - 3001:3001
       - 35729:35729
     volumes:
-      - ./:/usr/src/app
+      - ./src:/usr/src/app/src
+      - ./static:/usr/src/app/static
+      - ./docs:/usr/src/app/docs
+      - ./blog:/usr/src/app/blog
+      - ./sidebars.js:/usr/src/app/sidebars.js
