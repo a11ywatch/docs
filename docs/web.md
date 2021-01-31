@@ -3,7 +3,7 @@ id: web
 title: Web
 ---
 
-You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+The web project uses next.js to developer SSG/SSR context with apollo to leverage GQL power
 
 export const Highlight = ({children, color}) => ( <span style={{
       backgroundColor: color,

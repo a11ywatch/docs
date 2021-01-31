@@ -7,6 +7,12 @@ The easiest way to get started with a11ywatch is to use Docker [a11ywatch](https
 
 ## Docker
 
+first bootstrap your env keys
+
+`bootstrap-envs.sh`
+
+then you can start the development server as normal
+
 `docker-compose -f development.yml up`
 
 ## Local
