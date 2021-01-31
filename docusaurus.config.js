@@ -42,7 +42,7 @@ module.exports = {
             },
             {
               label: "Getting Started",
-              to: "docs/doc2/"
+              to: "docs/getting-started/"
             }
           ]
         },
@@ -86,13 +86,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/a11ywatch/a11ywatch-docs/edit/master/website/"
+          editUrl: "https://github.com/a11ywatch/a11ywatch-docs/edit/master/"
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/a11ywatch/a11ywatch-docs/edit/master/website/blog/"
+            "https://github.com/a11ywatch/a11ywatch-docs/edit/master/blog/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
