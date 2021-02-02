@@ -28,7 +28,7 @@ const features = [
     )
   },
   {
-    title: "Powered by React",
+    title: "Powered by AI",
     imageUrl: "img/undraw_web_browsing.svg",
     description: (
       <>

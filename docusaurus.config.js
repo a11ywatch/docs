@@ -43,6 +43,10 @@ module.exports = {
             {
               label: "Getting Started",
               to: "docs/getting-started/"
+            },
+            {
+              label: "Contact",
+              to: "docs/contact/"
             }
           ]
         },
