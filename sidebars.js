@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    A11yWatch: ["doc1", "getting-started", "services"],
+    A11yWatch: ["getting-started", "services", "deployment"],
     Features: [
       "api",
       "angelica",
