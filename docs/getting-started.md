@@ -15,8 +15,8 @@ first bootstrap your env keys
 
 then you can start the development server as normal
 
-`docker-compose -f development.yml up`
+`docker-compose up`
 
 ## Local
 
-First run the bootstrap command `./bootstrap.sh` at the root of the project to setup the project dependencies. You can skip this step if running on docker. Then cd into each service and follow the instructions on the readme to start.
+First run the bootstrap command `./bootstrap.sh` at the root of the project to setup the project dependencies. Then cd into each service and follow the instructions on the readme to start.

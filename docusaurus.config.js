@@ -42,7 +42,7 @@ module.exports = {
             },
             {
               label: "Getting Started",
-              to: "docs/getting-started/"
+              to: "/"
             },
             {
               label: "Contact",
