@@ -3,18 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start --host 0.0.0.0",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
+    "docusaurus": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus",
+    "start": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus start --host 0.0.0.0",
+    "build": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus build",
+    "swizzle": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus swizzle",
+    "deploy": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus deploy",
+    "serve": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus serve",
+    "clear": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus clear"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "2.0.0-alpha.70",
-    "@mdx-js/react": "^1.6.21",
+    "@docusaurus/core": "2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "2.0.0-alpha.72",
+    "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
@@ -30,5 +30,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^2.0.0-alpha.72",
+    "@tsconfig/docusaurus": "^1.0.2",
+    "@types/react": "^17.0.3",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-router-dom": "^5.1.7",
+    "typescript": "^4.2.3"
   }
 }

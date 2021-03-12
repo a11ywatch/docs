@@ -28,7 +28,7 @@ const features = [
     )
   },
   {
-    title: "Powered by Human Intelligence and AI",
+    title: "Powered by Humans & AI",
     imageUrl: "img/undraw_web_browsing.svg",
     description: (
       <>
