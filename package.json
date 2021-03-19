@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus",
-    "start": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus start --host 0.0.0.0",
-    "build": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus build",
-    "swizzle": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus swizzle",
-    "deploy": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus deploy",
-    "serve": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus serve",
-    "clear": "DOCUSAURUS_CONFIG_FILE_NAME=docusaurus.config.ts docusaurus clear"
+    "docusaurus": "docusaurus --config docusaurus.config.ts",
+    "start": "docusaurus start --host 0.0.0.0 --config docusaurus.config.ts",
+    "build": "docusaurus build --config docusaurus.config.ts",
+    "swizzle": "docusaurus swizzle --config docusaurus.config.ts",
+    "deploy": "docusaurus deploy --config docusaurus.config.ts",
+    "serve": "docusaurus serve --config docusaurus.config.ts",
+    "clear": "docusaurus clear --config docusaurus.config.ts"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.72",

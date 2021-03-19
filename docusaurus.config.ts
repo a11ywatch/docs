@@ -38,7 +38,7 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs"
+              to: "docs"
             },
             {
               label: "Contact",
@@ -85,7 +85,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve(`./sidebars.${process.env.NODE_ENV === "production" ? "js" : "js"}`),
+          sidebarPath: require.resolve('./src/sidebars.js'),
           editUrl: "https://github.com/a11ywatch/a11ywatch-docs/edit/master/"
         },
         blog: {
