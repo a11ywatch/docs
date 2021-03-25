@@ -1,6 +1,6 @@
 {
-  "name": "a11ywatch-docs",
-  "version": "0.0.0",
+  "name": "@a11ywatch/docs",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus --config docusaurus.config.ts",

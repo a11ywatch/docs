@@ -4,12 +4,13 @@ title: Getting Started
 slug: /
 ---
 
-The easiest way to get started with a11ywatch is to use Docker [a11ywatch](https://github.com/A11yWatch/a11ywatch).
-Try to allocate atleast 4gb of memory to docker. We are actively working on reducing this.
+The easiest way to get started with [a11ywatch](https://github.com/A11yWatch/a11ywatch) is to use Docker.
+
+To get started clone the project https://github.com/A11yWatch/a11ywatch
 
 ## Docker
 
-first bootstrap your env keys
+Run the command below to setup your env for development.
 
 `bootstrap-envs.sh`
 

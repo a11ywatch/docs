@@ -1,13 +1,13 @@
 module.exports = {
   title: "A11yWatch",
-  tagline: "Website Productivity Improvement",
-  url: "https://a11ywatch.github.io/a11ywatch-docs",
-  baseUrl: process.env.NODE_ENV === "production" ? "/a11ywatch-docs/" : "/",
-  onBrokenLinks: "throw",
+  tagline: "Web Accessibility Productivity Improvement",
+  url: "https://a11ywatch.github.io/docs",
+  baseUrl: process.env.NODE_ENV === "production" ? "/docs/" : "/",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "a11ywatch",
-  projectName: "a11ywatch-docs",
+  projectName: "docs",
   themeConfig: {
     navbar: {
       title: "A11yWatch",
@@ -17,8 +17,8 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
+          to: "documentation/",
+          activeBasePath: "documentation",
           label: "Docs",
           position: "left"
         },
@@ -38,11 +38,11 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "docs"
+              to: "documentation"
             },
             {
               label: "Contact",
-              to: "docs/contact/"
+              to: "documentation/contact/"
             }
           ]
         },
@@ -85,7 +85,8 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./src/sidebars.js'),
+          routeBasePath: "documentation",
+          sidebarPath: require.resolve("./src/sidebars.js"),
           editUrl: "https://github.com/a11ywatch/a11ywatch-docs/edit/master/"
         },
         blog: {
@@ -99,4 +100,4 @@ module.exports = {
       }
     ]
   ]
-};
+}
