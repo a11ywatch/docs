@@ -5,8 +5,8 @@ module.exports = {
       "api",
       "angelica",
       "mav",
+      "crawler",
       "cdn-server",
-      "watcher",
       "iframe-server",
       "logger",
       "web",
@@ -14,4 +14,4 @@ module.exports = {
       "example-site"
     ]
   }
-};
+}
