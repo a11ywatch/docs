@@ -14,6 +14,5 @@ sidebar_label: Services
 | [crawler](/documentation/crawler)             | gather all urls/webpages api for a website                     | 8000         |
 | [cdn-server](/documentation/cdn-server)       | create and store js scripts to fix web issues                  | 8090         |
 | [iframe-server](/documentation/iframe-server) | render websites on proxy domain for manipulation               | 8010         |
-| [example-site](/documentation/example-site)   | create and test issues for the accessibility engine (optional) | 8050         |
 | [logger](/documentation/logger)               | stream of all logs across micro-services (optional)            | 8022         |
 | [mongodb](https://www.mongodb.com/)  | central database for website and user data storage             | 27017        |

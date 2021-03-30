@@ -3,15 +3,13 @@ id: logger
 title: Logger
 ---
 
-You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+Transport logs from all services to one central location.
 
-export const Highlight = ({children, color}) => ( <span style={{
-      backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}>{children}</span> );
+Base endpoint POST/GET
 
-<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
+http://localhost:8022/api/log?type=info
+ex: post body data to send {"type": "info", "message": "test", "platform": "ios", "container": "postman" }
 
-I can write **Markdown** alongside my _JSX_!
+## backup
+
+Data us sent to s3 for backups.
