@@ -3,7 +3,7 @@ module.exports = {
     A11yWatch: ["getting-started", "services", "deployment"],
     Features: [
       "api",
-      "angelica",
+      "pagemind",
       "mav",
       "crawler",
       "cdn-server",
