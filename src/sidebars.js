@@ -9,8 +9,7 @@ module.exports = {
       "cdn-server",
       "iframe-server",
       "logger",
-      "web",
-      "cdn-server"
+      "web"
     ]
   }
 }
