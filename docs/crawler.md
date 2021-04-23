@@ -9,6 +9,10 @@ You can use the service with docker as a image `jeffmendez19/crawler`.
 
 ## Docker
 
+`docker-compose up`
+
+or 
+
 `docker build -t crawler . && docker run -dp 8000:8000 crawler`
 
 ```

@@ -3,15 +3,12 @@ id: web
 title: Web
 ---
 
-The web project uses next.js to developer SSG/SSR context with apollo to leverage GQL power
+The web project uses next.js to developer SSG/SSR context with apollo to leverage GQL power. The marketing app and web application are tied together currently.
 
-export const Highlight = ({children, color}) => ( <span style={{
-      backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}>{children}</span> );
+## Getting Started
 
-<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
+1. `docker-compose up`
 
-I can write **Markdown** alongside my _JSX_!
+ or
+
+2. `npm run dev`
