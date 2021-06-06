@@ -66,7 +66,7 @@ function Home() {
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h2 className="hero__subtitle">{siteConfig.tagline}</h2>
           <div className={styles.buttons}>
             <Link
               className={clsx(
