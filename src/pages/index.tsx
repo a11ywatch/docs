@@ -46,7 +46,13 @@ function Feature({ imageUrl, title, description }) {
     <div className={clsx("col col--4", styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <img
+            className={styles.featureImage}
+            src={imgUrl}
+            alt={title}
+            width={51.8}
+            height={32}
+          />
         </div>
       )}
       <h3>{title}</h3>
