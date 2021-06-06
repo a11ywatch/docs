@@ -15,7 +15,7 @@ const features = [
         A11yWatch was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
       </>
-    )
+    ),
   },
   {
     title: "Focus on What Matters",
@@ -25,7 +25,7 @@ const features = [
         A11yWatch lets you focus on your development, and we&apos;ll do the
         chores. Get notified instantly as new issues occur on your website.
       </>
-    )
+    ),
   },
   {
     title: "Powered by Humans & AI",
@@ -36,8 +36,8 @@ const features = [
         be extended and customized, use the services you need to help your use
         case.
       </>
-    )
-  }
+    ),
+  },
 ];
 
 function Feature({ imageUrl, title, description }) {
@@ -70,10 +70,10 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                "button button--outline button--secondary button--lg",
+                "button button--outline button--secondary getStarted button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/")}
+              to={useBaseUrl("documentation/")}
             >
               Get Started
             </Link>

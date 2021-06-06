@@ -24,6 +24,13 @@
   justify-content: center;
 }
 
+.getStarted {
+  color: var(--ifm-font-color-base-inverse) !important;
+}
+
+.getStarted:hover {
+  color: var(--ifm-font-color-base) !important;
+}
 .features {
   display: flex;
   align-items: center;
