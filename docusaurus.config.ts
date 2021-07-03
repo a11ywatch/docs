@@ -13,22 +13,22 @@ module.exports = {
       title: "A11yWatch",
       logo: {
         alt: "A11yWatch Logo",
-        src: "img/logo.svg"
+        src: "img/logo.svg",
       },
       items: [
         {
           to: "documentation/",
           activeBasePath: "documentation",
           label: "Docs",
-          position: "left"
+          position: "left",
         },
         { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/a11ywatch/a11ywatch",
           label: "GitHub",
-          position: "right"
-        }
-      ]
+          position: "right",
+        },
+      ],
     },
     footer: {
       style: "dark",
@@ -38,47 +38,47 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "documentation"
+              to: "documentation",
             },
             {
               label: "Contact",
-              to: "documentation/contact/"
-            }
-          ]
+              to: "documentation/contact/",
+            },
+          ],
         },
         {
           title: "Community",
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/a11ywatch"
+              href: "https://stackoverflow.com/questions/tagged/a11ywatch",
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/a11ywatch"
+              href: "https://discord.gg/tmCzndrmMm",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/a11ywatcher"
-            }
-          ]
+              href: "https://twitter.com/a11ywatcher",
+            },
+          ],
         },
         {
           title: "More",
           items: [
             {
               label: "Blog",
-              to: "blog"
+              to: "blog",
             },
             {
               label: "GitHub",
-              href: "https://github.com/a11ywatch/a11ywatch"
-            }
-          ]
-        }
+              href: "https://github.com/a11ywatch/a11ywatch",
+            },
+          ],
+        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} A11yWatch, LLC.`
-    }
+      copyright: `Copyright © ${new Date().getFullYear()} A11yWatch, LLC.`,
+    },
   },
   presets: [
     [
@@ -87,17 +87,17 @@ module.exports = {
         docs: {
           routeBasePath: "documentation",
           sidebarPath: require.resolve("./src/sidebars.js"),
-          editUrl: "https://github.com/a11ywatch/a11ywatch-docs/edit/master/"
+          editUrl: "https://github.com/a11ywatch/a11ywatch-docs/edit/master/",
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/a11ywatch/a11ywatch-docs/edit/master/blog/"
+            "https://github.com/a11ywatch/a11ywatch-docs/edit/master/blog/",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
-        }
-      }
-    ]
-  ]
-}
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      },
+    ],
+  ],
+};
