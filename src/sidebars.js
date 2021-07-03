@@ -7,9 +7,8 @@ module.exports = {
       "mav",
       "crawler",
       "cdn-server",
-      "iframe-server",
       "logger",
-      "web"
-    ]
-  }
-}
+      "web",
+    ],
+  },
+};

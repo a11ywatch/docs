@@ -18,6 +18,10 @@ then you can start the development server as normal
 
 `docker-compose up`
 
+for development run
+
+`docker-compose --file dev.yml up`
+
 ## Local
 
 First run the bootstrap command `./bootstrap.sh` at the root of the project to setup the project dependencies. Then cd into each service and follow the instructions on the readme to start.

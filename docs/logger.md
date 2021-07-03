@@ -3,7 +3,7 @@ id: logger
 title: Logger
 ---
 
-Transport logs from all services to one central location.
+Transport logs from all services to one central location. This service is not actively being used and going to be removed for network watching instead.
 
 ## Getting Started
 

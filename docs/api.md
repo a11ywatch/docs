@@ -1,9 +1,9 @@
 ---
 id: api
-title: Api
+title: API
 ---
 
-The core api for a11ywatch. All things go through this service.
+The core API for a11ywatch. All things go through this service.
 
 ## Getting Started
 

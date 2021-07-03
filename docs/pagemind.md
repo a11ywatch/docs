@@ -11,6 +11,4 @@ PageMind is the core for accessiblity and insights the brains of a11ywatch.
 
 ## REST
 
-rest endpoints 
-
-
+rest endpoints TODO:
