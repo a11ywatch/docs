@@ -10,5 +10,6 @@ module.exports = {
       "logger",
       "web",
     ],
+    Settings: ["status-badges"],
   },
 };
