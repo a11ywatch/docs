@@ -2,7 +2,10 @@ module.exports = {
   title: "A11yWatch",
   tagline: "Web Accessibility Productivity Improvement",
   url: "https://a11ywatch.github.io",
-  baseUrl: process.env.NODE_ENV === "production" ? "/docs/" : "/",
+  baseUrl:
+    process.env.NODE_ENV === "production" && !process.env.VERCEL
+      ? "/docs/"
+      : "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
