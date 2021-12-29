@@ -1,13 +1,14 @@
 module.exports = {
   title: "A11yWatch",
   tagline: "Web Accessibility Productivity Improvement",
-  url: "https://a11ywatch.github.io/docs",
+  url: "https://a11ywatch.github.io",
   baseUrl: process.env.NODE_ENV === "production" ? "/docs/" : "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "a11ywatch",
   projectName: "docs",
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: "A11yWatch",
