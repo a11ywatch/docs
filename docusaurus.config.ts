@@ -8,6 +8,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "a11ywatch",
   projectName: "docs",
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: "A11yWatch",
