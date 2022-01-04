@@ -1,7 +1,7 @@
 module.exports = {
   title: "A11yWatch",
   tagline: "Web Accessibility Productivity Improvement",
-  url: "https://a11ywatch.github.io",
+  url: "https://docs.a11ywatch.com",
   baseUrl:
     process.env.NODE_ENV === "production" && !process.env.VERCEL
       ? "/docs/"
