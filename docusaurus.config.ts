@@ -91,12 +91,12 @@ module.exports = {
         docs: {
           routeBasePath: "documentation",
           sidebarPath: require.resolve("./src/sidebars.js"),
-          editUrl: "https://github.com/a11ywatch/a11ywatch-docs/edit/master/",
+          editUrl: "https://github.com/a11ywatch/a11ywatch-docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/a11ywatch/a11ywatch-docs/edit/master/blog/",
+            "https://github.com/a11ywatch/a11ywatch-docs/edit/main/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
