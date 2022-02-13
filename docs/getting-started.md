@@ -27,16 +27,22 @@ cd a11ywatch
 
 ## Docker
 
-Run the command below to setup your env for development using `docker-compose up`.
+```sh
+`docker-compose up`
+```
 
-`bootstrap-envs.sh`
+development run
 
-then you can start the development server as normal
+```sh
+`./scripts/dev.sh`
+```
 
-for development run
+## Util Commands
 
-`docker-compose --file dev.yml up`
+1. sync
 
-## Local
+- if your actively developing and need to sync all the repos run `./scripts/sync.sh`
 
-First run the bootstrap command `./bootstrap.sh` at the root of the project to setup the project dependencies. Then cd into each service and follow the instructions on the readme to start.
+1. deploy
+
+- build docker images of stack and push to docker hub `./scripts/deploy.sh`
