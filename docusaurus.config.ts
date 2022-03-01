@@ -1,6 +1,6 @@
 module.exports = {
-  title: "A11yWatch",
-  tagline: "Documentation for A11yWatch a web accessibility service",
+  title: "Documentation",
+  tagline: "Learn how to consume, build, and deploy with A11yWatch.",
   url: "https://docs.a11ywatch.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -88,12 +88,11 @@ module.exports = {
         docs: {
           routeBasePath: "documentation",
           sidebarPath: require.resolve("./src/sidebars.js"),
-          editUrl: "https://github.com/a11ywatch/a11ywatch-docs/edit/main/",
+          editUrl: "https://github.com/a11ywatch/docs/edit/main",
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/a11ywatch/a11ywatch-docs/edit/main/blog/",
+          editUrl: "https://github.com/a11ywatch/docs/edit/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

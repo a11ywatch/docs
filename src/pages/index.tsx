@@ -63,7 +63,7 @@ function Feature({ imageUrl, title, description }) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
+  const { siteConfig = { title: "", tagline: "" } } = context;
   return (
     <Layout
       title={`${siteConfig.title} Docs`}
