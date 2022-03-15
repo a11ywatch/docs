@@ -4,7 +4,7 @@ title: Getting Started
 slug: /
 ---
 
-The easiest way to get started with [a11ywatch](https://github.com/A11yWatch/a11ywatch) is to use Docker.
+The easiest way to get started with [a11ywatch](https://github.com/A11yWatch/a11ywatch) is to use Docker or the [CLI](./cli.md).
 
 ## Development
 
@@ -30,13 +30,13 @@ cd a11ywatch
 ## Docker
 
 ```sh
-`docker-compose up`
+docker-compose up
 ```
 
 development run
 
 ```sh
-`./scripts/dev.sh`
+./scripts/dev.sh
 ```
 
 ## Util Commands

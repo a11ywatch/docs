@@ -28,6 +28,4 @@ STRIPE_PREMIUM_PLAN=
 STRIPE_PREMIUM_PLAN_YEARLY=
 # email
 EMAIL_SERVICE_URL=support@someemail.com
-EMAIL_MAIN_LEAD=emailforreports@someemail.com
-EMAIL_SERVICE_PASSWORD=SomePassword
 ```

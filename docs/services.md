@@ -14,5 +14,4 @@ All of the services in the a11ywatch eco-system
 | [pagemind](/documentation/pagemind)     | website issue detector engine with accessibility fixes | 8040         |
 | [crawler](/documentation/crawler)       | gather all urls/webpages for a website                 | 8000         |
 | [cdn-server](/documentation/cdn-server) | create and store js scripts to fix web issues          | 8090         |
-| [logger](/documentation/logger)         | stream of all logs across micro-services (optional)    | 8022         |
 | [mongodb](https://www.mongodb.com/)     | central database for website and user data storage     | 27017        |
