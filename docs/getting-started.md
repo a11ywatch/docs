@@ -39,12 +39,7 @@ development run
 ./scripts/dev.sh
 ```
 
-## Util Commands
-
-1. sync
+## Development Util Commands
 
 - if your actively developing and need to sync all the repos run `./scripts/sync.sh`
-
-1. deploy
-
 - build docker images of stack and push to docker hub `./scripts/deploy.sh`

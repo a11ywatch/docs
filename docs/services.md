@@ -15,3 +15,4 @@ All of the services in the a11ywatch eco-system
 | [crawler](/documentation/crawler)       | gather all urls/webpages for a website                 | 8000         |
 | [cdn-server](/documentation/cdn-server) | create and store js scripts to fix web issues          | 8090         |
 | [mongodb](https://www.mongodb.com/)     | central database for website and user data storage     | 27017        |
+| [redis](https://www.redis.com/)         | memory database for subs and quick look ups            | 6379         |
