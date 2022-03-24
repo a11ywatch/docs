@@ -45,6 +45,15 @@ SUBCOMMANDS:
     terminate    Destroy the build on remote infrastructure. [defaults: GCP]
 ```
 
+### Quick Start
+
+To get started scanning your website with the cli run the following commands.
+
+```sh
+a11ywatch start
+a11ywatch scan --url https://www.a11ywatch.com -s
+```
+
 ## Deploying Remotely
 
 You can deploy the project with terraform with a couple steps onto any infrastructure. If you are running the remote commands make sure to configure the terraform variables to match your project id and log in to gcloud via command line (`gcloud login`). Make sure to clone the repo and cd into the root. You can also install the CLI onto a machine and start up locally as well via docker or a simple bash script. Terraform provides a more balanced remote setup since the architecture is set to scale amongst different layers while the standard `build` + `start` commands use a single docker instance.
