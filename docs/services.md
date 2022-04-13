@@ -4,7 +4,7 @@ title: Services
 sidebar_label: Services
 ---
 
-All of the services in the a11ywatch eco-system
+All of the services in the a11ywatch eco-system. All of the services use [gRPC](https://grpc.io/) to communicate except the primary API allows REST, Graphql, and gRPC for the main entry. The cdn-server is going to be removed soon.
 
 | Service                                                 | Container Purpose                                      | Default Port |
 | ------------------------------------------------------- | ------------------------------------------------------ | ------------ |
