@@ -3,7 +3,9 @@ id: crawler
 title: Crawler
 ---
 
-The crawler projects main purpose is to determine all valid urls on a website really fast [Repo](https://github.com/A11yWatch/crawler).
+[View Repo](https://github.com/A11yWatch/crawler)
+
+The crawler projects main purpose is to determine all valid urls on a website really fast.
 You can use the service with docker as an image `a11ywatch/crawler`.
 
 ## Docker

@@ -23,7 +23,6 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/a11ywatch/a11ywatch",
           label: "GitHub",
@@ -69,7 +68,7 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              to: "blog",
+              href: "https://a11ywatch.blog",
             },
             {
               label: "GitHub",

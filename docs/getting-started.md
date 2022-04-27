@@ -29,15 +29,13 @@ cd a11ywatch
 
 ## Docker
 
-```sh
-docker-compose up
-```
-
-development run
+You can use the `./scripts/dev.sh` to start up the docker instance targeting the `dev.yml` file.
 
 ```sh
 ./scripts/dev.sh
 ```
+
+If you want to run the production application simply `docker compose up`.
 
 ## Development Util Commands
 
