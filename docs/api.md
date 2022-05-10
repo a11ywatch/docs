@@ -13,54 +13,14 @@ The core API gateway for A11yWatch.
 
 ## API
 
-You can use A11yWatch either using REST, graphql, or gRPC. Docs are WIP on specs.
-In order to view the graphql schema you need to run the app in development.
-
-1. REST
-1. graphQL
-1. gRPC
-
-## Endpoints
-
-Get accessibility issues for a website url.
-
-```
-Endpoint: /api/scan-simple
-Method: POST
-Req Body:
-  url: string
-```
-
-```sh
-# example
-curl --location --request POST 'https://api.a11ywatch.com/api/scan-simple' \
---header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'url=https://www.nytimes.com'
-```
-
-Determine an image from a base64 encoded string [authentication required].
-
-```
-Endpoint: /api/image-check
-Method: POST
-Headers:
-  Authentication: $API_TOKEN
-Req Body:
-  imageBase64: string
-```
-
-```sh
-# example
-curl --location --request POST 'https://api.a11ywatch.com/api/image-check' \
---header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'imageBase64=data:image/png;base64,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'
-```
+You can use A11yWatch either using REST, graphql, or gRPC. At the moment only the REST API is exposed to consumers.
+In order to view the graphql schema you need to run the app in development. You can view the API endpoints available [here](https://a11ywatch.com/api-info).
 
 ## ENV Configuration
 
-If your running A11yWatch on your own machine, some configs you may want to add are.
+If your running A11yWatch on your own machine, some configs you may want to add consist of the following:
 
-```
+```sh
 # stripe (if your forking as a new product and like the payment plan setup )
 STRIPE_BASIC_PLAN=
 STRIPE_BASIC_PLAN_YEARLY=
@@ -73,11 +33,13 @@ DB_NAME=a11ywatch
 CLIENT_URL=http://localhost:3000,http://0.0.0.0
 GRAPHQL_PORT=8080
 # email configs
-EMAIL_SERVICE_URL=
-EMAIL_CLIENT_ID=
 EMAIL_CLIENT_KEY=
+EMAIL_CLIENT_ID=
+EMAIL_SERVICE_PASSWORD=
+EMAIL_SERVICE_URL=
 # assigned admin ip allowed to perform all actions
 ADMIN_ORIGIN=
+# server side analytics of front-end pages
 GOOGLE_ANALYTIC_ID=
 GOOGLE_CLIENT_ID=
 ```

@@ -17,13 +17,14 @@ In the github action you can pass or fail PR's easily by configuring the ENV var
 - uses: a11ywatch/github-action@v1.2.43
   with:
     WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
-    FAIL_ERROR_COUNT: 10
+    FAIL_TOTAL_COUNT: 10
 ```
 
 ## CircleCI
 
 Here is an example config using the A11yWatch orb to scan a website for issues. You need to use a machine image since the A11yWatch system uses docker to run. Replace `to` with your website url.
-You can also use the scan across `steps`. Just make sure to install the CLI with `cargo install a11ywatch_cli` first if being used in the steps section.
+You can also use the scan across `steps`. Just make sure to install the CLI with `cargo install a11ywatch_cli` first if being used in the steps section. You can also use the CircleCI orb
+at `a11ywatch/a11ywatch@dev:<<pipeline.git.revision>>` or view the [repo](https://github.com/A11yWatch/circleci-orb).
 
 ```yml
 version: 2.1
