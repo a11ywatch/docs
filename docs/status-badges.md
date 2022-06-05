@@ -28,5 +28,3 @@ html:
   ><img src="https://api.a11ywatch.com/status/a11ywatch.com"
 /></a>
 ```
-
-[![A11yWatch](https://api.a11ywatch.com/status/a11ywatch.com)](https://a11ywatch.com/reports/a11ywatch.com)
