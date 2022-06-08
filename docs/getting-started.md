@@ -29,15 +29,6 @@ cd a11ywatch
 
 ## Docker
 
-You can use the `./scripts/dev.sh` to start up the docker instance targeting the `dev.yml` file.
+You can use the `docker compose --file dev.yml up ` to start up the docker instance targeting the `dev.yml` file.
 
-```sh
-./scripts/dev.sh
-```
-
-If you want to run the production application simply `docker compose up`.
-
-## Development Util Commands
-
-- if your actively developing and need to sync all the repos run `./scripts/sync.sh`
-- build docker images of stack and push to docker hub `./scripts/deploy.sh`
+If you want to run the production application simply `docker compose up`. If you want to easily get started with the system use the [CLI](https://docs.a11ywatch.com/documentation/cli/) to perform actions.
