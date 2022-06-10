@@ -9,7 +9,7 @@ The only service that is exposed outside to connections are `web` which is the f
 
 | Service                                                 | Container Purpose                                      | Default Port |
 | ------------------------------------------------------- | ------------------------------------------------------ | ------------ |
-| [web](/documentation/web)                               | web application that interacts with the main api       | 3000         |
+| [web](/documentation/web)                               | web application that interacts with the main api       | 3270         |
 | [api](/documentation/api)                               | central core API                                       | 3280         |
 | [mav](/documentation/mav)                               | image detector for generating names with probability   | 8020         |
 | [pagemind](/documentation/pagemind)                     | website issue detector engine with accessibility fixes | 8040         |
