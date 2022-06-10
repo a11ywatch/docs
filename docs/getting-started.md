@@ -10,8 +10,13 @@ The easiest way to get started with [a11ywatch](https://github.com/A11yWatch/a11
 
 First, you must checkout all repos into the same directory. Some of these repos are optional, but checking them all out allows you to hop around the code more easily. If you are not going to develop you can use docker compose to run the images.
 
+Enter the working directory
 ```sh
 cd $WORKING_DIRECTORY
+```
+
+Clone all the repositories (or only the required ones).
+```sh
 git clone https://github.com/A11yWatch/a11ywatch-core.git
 git clone https://github.com/A11yWatch/pagemind.git
 git clone https://github.com/A11yWatch/web.git
