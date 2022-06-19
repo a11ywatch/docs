@@ -4,17 +4,19 @@ title: Continuous Integration
 sidebar_label: CI
 ---
 
-Using A11yWatch on the CI can be done with the CLI. This can also be hanlded using the [Github Action](https://github.com/A11yWatch/github-action) or [Circle CI Orb](https://github.com/A11yWatch/circleci-orb).
+Using A11yWatch on the CI can be done with the CLI. This can also be handled using the [Github Action](https://github.com/A11yWatch/github-action) or [Circle CI Orb](https://github.com/A11yWatch/circleci-orb).
 
-## Github Actions
+## [Github Actions](https://github.com/marketplace/actions/web-accessibility-evaluation)
 
 [A11yWatch Github Action](https://github.com/A11yWatch/github-action)
 
 A11yWatch comes with a github action that gives you real results across your workflow before you ship to production.
-In the github action you can pass or fail PR's easily by configuring the ENV variables for your project. Here is an example using the action to fail if 10 accessibility errors occur on a page.
+In the github action you can pass or fail PR's easily by configuring the `env` variables for your project.
+
+Here is an example using the action to fail if 10 accessibility errors occur on a page.
 
 ```yml
-- uses: a11ywatch/github-action@v1.6.0
+- uses: a11ywatch/github-action@v1.6.4
   with:
     WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
     FAIL_ERRORS_COUNT: 10
