@@ -60,7 +60,7 @@ At the moment you can only crawl a single page, use the front-end client if you 
 
 ```sh
 a11ywatch start # or start with frontend included passing -f option
-a11ywatch scan --url https://www.a11ywatch.com -s
+a11ywatch scan --url https://a11ywatch.com -s
 ```
 
 ## Deploying Remotely [Beta]
