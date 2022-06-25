@@ -17,7 +17,7 @@ The primary purpose of MAV is to find alt tags for images using base64 data.
 Some possible env configurations you may want to use:
 
 ```sh
-# saves tons of mem when set to true
+# saves tons of mem when set to true at least 500mb of extra memory required to enable.
 DISABLE_TENSORFLOW=true
 # Computer Vision
 COMPUTER_VISION_SUBSCRIPTION_KEY=
