@@ -31,7 +31,7 @@ DB_URL=mongodb://mongodb:27017/?compressors=zlib&gssapiServiceName=mongodb
 DB_NAME=a11ywatch
 # website front-end client allowed domains
 CLIENT_URL=http://localhost:3000,http://0.0.0.0
-GRAPHQL_PORT=8080
+GRAPHQL_PORT=3280
 # email configs
 EMAIL_CLIENT_KEY=
 EMAIL_CLIENT_ID=

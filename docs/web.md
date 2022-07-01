@@ -20,9 +20,9 @@ or
 Here are some environmental configs you would want to add used in (process.env).
 
 ```sh
-API=http://localhost:8080/graphql
-WEB_SOCKET_URL=ws://localhost:8080/graphql
-IFRAME_URL=http://localhost:8080
+API=http://localhost:3280/graphql
+WEB_SOCKET_URL=ws://localhost:3280/graphql
+IFRAME_URL=http://localhost:3280
 APP_TYPE=main
 STRIPE_KEY=
 SCRIPTS_CDN_URL_HOST=http://localhost:8090/cdn
