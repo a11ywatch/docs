@@ -44,7 +44,7 @@ OPTIONS:
 SUBCOMMANDS:
     build        Build the project on the local machine [defaults to docker runtime]
     crawl        Site wide scan a website url for issues
-    deploy       Deploy the build on remote infrastructure
+    deploy       Deploy the build on remote infrastructure [defaults: GCP]
     extract      Extract results in formats for platforms
     help         Print this message or the help of the given subcommand(s)
     scan         Single page scan a website url for issues
@@ -65,5 +65,5 @@ a11ywatch scan --url https://a11ywatch.com -s
 
 ## Deploying Remotely [Beta]
 
-In order to deploy using terraform to a third party you need to clone the A11yWatch [repo](https://github.com/A11yWatch/terraform-provider) first and navigate into the directory before running any of the deploy commands.
+In order to deploy using terraform to a third party you need to clone the A11yWatch [terraform-provider](https://github.com/A11yWatch/terraform-provider) first and navigate into the directory before running any of the deploy commands.
 You can deploy the project with terraform with a couple steps onto any infrastructure. If you are running the remote commands make sure to configure the terraform variables to match your project id and log in to gcloud via command line (`gcloud login`). Make sure to clone the repo and cd into the root. You can also install the CLI onto a machine and start up locally as well via docker or a simple bash script. Terraform provides a more balanced remote setup since the architecture is set to scale amongst different layers while the standard `build` + `start` commands use a single docker instance.

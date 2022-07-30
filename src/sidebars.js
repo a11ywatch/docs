@@ -1,7 +1,9 @@
 module.exports = {
   someSidebar: {
-    A11yWatch: ["getting-started", "services", "deployment", "cli", "ci"],
-    Services: ["api", "pagemind", "mav", "crawler", "cdn-server", "web"],
-    Settings: ["status-badges"],
+    ["Get Started"]: ["welcome", "cli", "ci", "services", "contributing"],
+    API: ["accessibility-api"],
+    // Services: ["api", "pagemind", "mav", "crawler", "cdn-server", "web"],
+    Settings: ["status-badges", "pagespeed", "computer-vision"],
+    ["Self-Hosting"]: ["self-hosting-start", "deployment"],
   },
 };

@@ -42,8 +42,6 @@ jobs:
 workflows:
   build_and_test:
     jobs:
-      - web
-      - web-e2e
       - a11ywatch/scan:
           to: "https://a11ywatch.com"
 ```
