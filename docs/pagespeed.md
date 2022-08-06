@@ -3,7 +3,7 @@ id: pagespeed
 title: PageSpeed
 ---
 
-Core Web Vitals are a set of speed metrics that are part of Google’s Page Experience signals used to measure user experience. We retrieve them using Google’s PageSpeed Insights API externally and internally. It’s free but limited to a daily quota.
+Core Web Vitals are a set of speed metrics that are part of Google’s Page Experience signals used to measure user experience. We retrieve them using Google’s PageSpeed Insights API externally and internally.
 
 ## Settings
 

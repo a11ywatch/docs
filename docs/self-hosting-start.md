@@ -3,7 +3,10 @@ id: self-hosting-start
 title: Getting started
 ---
 
-The easiest way to get started with A11yWatch is with our official managed service in the Cloud. It takes 2 minutes to start getting web accessibility and vitals across multi pages at high velocity. Our managed hosting can save a substantial amount of developer time and resources. For most sites this ends up being the best value option and the revenue goes to funding the maintenance and further development of A11yWatch. So you’ll be supporting open source software and getting an amazing service! The section below is for self-hosting our suite on your server and managing your infrastructure.
+The easiest way to get started with A11yWatch is with our official managed service in the Cloud. It takes 2 minutes to start getting web accessibility and vitals across multi pages at high velocity.
+Our managed hosting can save a substantial amount of developer time and resources.
+
+The section below is for self-hosting our suite on your server and managing your infrastructure.
 
 ## Docker
 

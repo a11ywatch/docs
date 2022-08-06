@@ -67,7 +67,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title} Docs`}
-      description={`${siteConfig.title} docs on how to install and use the project.`}
+      description={`${siteConfig.title} documentation on how to install and use the project.`}
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">

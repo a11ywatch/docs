@@ -3,7 +3,7 @@ id: deployment
 title: Deployment
 ---
 
-At the moment we use Fargate to deploy all things A11yWatch but, not limited to only AWS. This page is for people who are trying to deploy A11yWatch on your own infrastructure.
+AWS Fargate is our main service used to deploy all things A11yWatch but, not limited to only AWS.
 
 ## Getting Started
 
