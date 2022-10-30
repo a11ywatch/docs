@@ -1,11 +1,13 @@
 ---
 id: accessibility-api
-title: Accessibility API reference
+title: Accessibility API Reference
 ---
 
 The A11yWatch Accessibility API can be used to gather multi page and cross domain vitals and other custom events. This is useful when trying to keep multi pages on a website inclusive using real browsers and workflows that cannot be detected simply by linting.
 
 In most cases we recommend installing A11yWatch through one of the [OpenAPI clients](https://gitlab.com/j-mendez/a11ywatch-clients) or [the sidecar](https://github.com/a11ywatch/sidecar). However, if there's no easy way for you to integrate with A11yWatch, you can still do so by sending events directly to the API.
+
+For a detailed document of the API visit [A11yWatch API Page](https://a11ywatch.com/api-info)
 
 ## Endpoints
 
