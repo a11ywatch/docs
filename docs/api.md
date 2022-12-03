@@ -21,12 +21,8 @@ You can view the API endpoints available [here](https://a11ywatch.com/api-info).
 If your running A11yWatch on your own machine, some configs you may want to add consist of the following:
 
 ```sh
-# stripe (if your forking as a new product and like the payment plan setup )
-STRIPE_BASIC_PLAN=
-STRIPE_BASIC_PLAN_YEARLY=
-STRIPE_PREMIUM_PLAN=
-STRIPE_PREMIUM_PLAN_YEARLY=
-STRIPE_KEY=
+# everything unlocked for all users!
+SUPER_MODE=true
 DB_URL=mongodb://mongodb:27017/?compressors=zlib&gssapiServiceName=mongodb
 DB_NAME=a11ywatch
 # website front-end client allowed domains
@@ -42,4 +38,6 @@ ADMIN_ORIGIN=
 # server side analytics of front-end pages
 GOOGLE_ANALYTIC_ID=
 GOOGLE_CLIENT_ID=
+# enable CDN JS scripts
+SCRIPTS_ENABLED=true
 ```
