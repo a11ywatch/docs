@@ -1,4 +1,5 @@
 ---
+description: The A11yWatch API introduction on how to configure the service.
 id: api
 title: API
 ---

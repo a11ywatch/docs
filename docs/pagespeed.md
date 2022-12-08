@@ -1,6 +1,7 @@
 ---
 id: pagespeed
 title: PageSpeed
+description: Pagespeed at lightspeed with our custom setup integration. Get results across all pages quick.
 ---
 
 Core Web Vitals are a set of speed metrics that are part of Google’s Page Experience signals used to measure user experience. We retrieve them using Google’s PageSpeed Insights API externally and internally.

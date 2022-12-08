@@ -1,4 +1,5 @@
 ---
+description: The central entry point into the A11yWatch platform.
 id: accessibility-api
 title: Accessibility API Reference
 ---

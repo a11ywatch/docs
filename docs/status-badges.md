@@ -1,4 +1,5 @@
 ---
+description: Make your product stand out by using a status badge on your report or metrics.
 id: status-badges
 title: Status Badges
 ---

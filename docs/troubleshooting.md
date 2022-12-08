@@ -1,4 +1,5 @@
 ---
+description: Need help with a problem on the system?
 id: troubleshooting
 title: Troubleshooting
 ---

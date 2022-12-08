@@ -1,9 +1,10 @@
 ---
+description: How to configure the system for what you makes sense for you.
 id: developers
 title: Developer Settings
 ---
 
-Settings you can configure for indivual crawls.
+Settings you can configure for indivual crawls through env configs or using the settings page.
 
 ## Core Web Vitals
 

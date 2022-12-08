@@ -1,4 +1,5 @@
 ---
+description: The A11yWatch Crawler tuned for lightspeed indexing the internet.
 id: crawler
 title: Crawler
 ---

@@ -1,4 +1,5 @@
 ---
+description: Need to launch the system on your own machine? Learn how to use docker or bare metal to build a sweet accessibility monitor that can be used in private settings.
 id: self-hosting-start
 title: Getting started
 ---

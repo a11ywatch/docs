@@ -1,6 +1,7 @@
 ---
 id: pagemind
 title: Pagemind
+description: The A11yWatch accessibility engine for the cloud.
 ---
 
 [View Repo](https://github.com/A11yWatch/pagemind)
@@ -13,7 +14,7 @@ Pagemind is the core for accessiblity and insights engine for A11yWatch. It uses
 docker-compose up
 ```
 
-Pagemind takes the foundations from [pa11y](https://pa11y.org/) and uses [litpa11y](https://github.com/j-mendez/litepa11y) optimized for speed to the next degree and 95% smaller in build size. Set for the needs of a web server.
+Pagemind uses [litpa11y](https://github.com/a11ywatch/a11y) a very fast accessibility runner about 10,000 times faster than the alternatives. Created for the needs of a web server.
 
 ## Features
 
@@ -21,7 +22,8 @@ Pagemind takes the foundations from [pa11y](https://pa11y.org/) and uses [litpa1
 2. Pagespeed reports.
 3. Near instant results.
 4. Smart AI enhanced reports like missing alts.
-5. Custom javascript scripts
+5. Custom javascript fixes.
+6. Custom HTML audits.
 
 ## ENV
 

@@ -1,4 +1,5 @@
 ---
+description: The A11yWatch CDN service built to store the fixes for pages.
 id: cdn-server
 title: CDN Server
 sidebar_label: CDN Server
@@ -6,7 +7,7 @@ sidebar_label: CDN Server
 
 [View Repo](https://github.com/A11yWatch/elastic-cdn)
 
-The cdn server is used for storing scripts and images of websites. It also backs up content to AWS S3.
+The CDN server is used for storing scripts and images of websites. It also backs up content to AWS S3.
 
 ## Getting Started
 

@@ -1,4 +1,5 @@
 ---
+description: The A11yWatch web application getting started page.
 id: web
 title: Web
 ---

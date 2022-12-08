@@ -1,4 +1,5 @@
 ---
+description: Learn how to deploy the A11yWatch platform on any machine. 
 id: deployment
 title: Deployment
 ---

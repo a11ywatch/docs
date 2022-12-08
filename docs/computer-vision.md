@@ -1,4 +1,5 @@
 ---
+description: Setup computer vision for enhanced OCR detection helping define missing media content.
 id: computer-vision
 title: Computer Vision
 ---

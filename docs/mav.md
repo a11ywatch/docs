@@ -1,12 +1,13 @@
 ---
 id: mav
 title: Mav
+description: The A11yWatch image classification service using machine learning and AI.
 ---
 
 [View Repo](https://github.com/A11yWatch/mav)
 
-The Mav image classification service uses [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) and [Tensorflow](https://www.tensorflow.org/).
-The primary purpose of MAV is to find alt tags for images using base64 data.
+The Mav image classification service uses [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) for [OCR](https://en.wikipedia.org/wiki/Optical_character_recognition) and [Tensorflow](https://www.tensorflow.org/).
+The primary purpose of Mav is to find alt tags for images using base64 data.
 
 ## Getting Started
 

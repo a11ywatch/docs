@@ -1,4 +1,5 @@
 ---
+description: Need to make sure your website stays accessible? Host A11yWatch on any CI using the A11yWatch Github Action or bare metal setups.
 id: ci
 title: Continuous Integration
 sidebar_label: CI
