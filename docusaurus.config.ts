@@ -15,6 +15,7 @@ module.exports = {
       logo: {
         alt: "A11yWatch Logo",
         src: "img/logo.svg",
+        style: { background: 'transparent' },
       },
       items: [
         {
