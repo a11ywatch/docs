@@ -22,7 +22,7 @@ You can get the CLI using [`cargo`](https://doc.rust-lang.org/cargo/commands/car
 You can run the `a11ywatch -h` command to get all the options and details for the CLI.
 
 ```sh
-a11ywatch_cli 0.8.4
+a11ywatch_cli 0.8.21
 j-mendez <jeff@a11ywatch.com>
 A11yWatch accessibility CLI.
 
@@ -52,7 +52,7 @@ OPTIONS:
             Get results file parsed as report list of passed / failed
 
         --results-issues
-            Get the total amount of issues between errors,warning,notice that occured for the result
+            Get the total amount of issues between errors,warning,notice that occurred for the result
             set
 
         --results-issues-errors
@@ -82,6 +82,7 @@ SUBCOMMANDS:
     deploy       Deploy the build on remote infrastructure [BETA - defaults: GCP]
     extract      Extract results in formats for platforms
     help         Print this message or the help of the given subcommand(s)
+    login        Authenticate current session
     scan         Single page scan a website url for issues
     start        Start the application on the local machine [defaults to docker runtime]
     stop         Stop the project on the local machine [defaults to docker runtime]
@@ -104,6 +105,8 @@ a11ywatch crawl --url https://a11ywatch.com -s -d --subdomains --tld
 ```
 
 If you want to display detailed reports on the last scan run `a11ywatch --results-parsed-list`, the prior run also needs the `-s` flag to store results. This will bring up the last scan with pass/fail reports for each page.
+
+Use the `-d` flag in order to enable real time log output of pages completed.
 
 #### Code Fix
 
