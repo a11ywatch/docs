@@ -1,7 +1,7 @@
 {
   "name": "@a11ywatch/docs",
   "version": "0.0.3",
-  "private": true,
+  "private": false,
   "scripts": {
     "docusaurus": "docusaurus --config docusaurus.config.ts",
     "start": "docusaurus start --host 0.0.0.0 --config docusaurus.config.ts",

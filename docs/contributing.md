@@ -1,4 +1,5 @@
 ---
+description: Help build the best web accessibility software by getting in on the code! Steps on installation and building for development. 
 id: contributing
 title: Contributing
 ---
