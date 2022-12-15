@@ -15,7 +15,7 @@ The core API gateway for A11yWatch.
 ## API
 
 You can use A11yWatch either using REST, [graphQL](https://a11ywatch.com/playground), or gRPC. At the moment only the REST API is exposed to consumers.
-You can view the API endpoints available [here](https://a11ywatch.com/api-info).
+View the [API endpoints available](https://a11ywatch.com/api-info) to get detailed examples with curl snippets.
 
 ## ENV Configuration
 

@@ -15,7 +15,7 @@ Core Web Vitals are a set of speed metrics that are part of Google’s Page Expe
 
 ## Computer Vision
 
-You can use Microsofts ComputerVision to enhance alt tag validation with the ability to do OCR text.
+You can use [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/#overview) by Microsoft to enhance alt tag validation with the ability to do OCR text.
 
 Set the following env keys or in the settings of the application soon add:
 
