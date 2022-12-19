@@ -9,6 +9,20 @@ sidebar_label: CLI
 
 The A11yWatch CLI is an easy way to get started with running, deploying, and testing web accessibility.
 
+## Pre-requisites
+
+* [Rust](https://www.rust-lang.org/tools/install) is required.
+* [Docker](https://docs.docker.com/get-docker/) is required if you are not building locally.
+* [Nodejs](https://nodejs.org/en/download/) is required for local installs.
+
+### Ubuntu
+
+If you are on Ubuntu OpenSSL is required:
+
+```sh
+apt-get update && apt upgrade -y && apt-get install -y --no-install-recommends build-essential gcc cmake libc6 libssl-dev pkg-config
+```
+
 ## Getting Started
 
 You can get the CLI using [`cargo`](https://doc.rust-lang.org/cargo/commands/cargo-install.html) or [npm](https://nodejs.org/en/download/).
@@ -16,6 +30,7 @@ You can get the CLI using [`cargo`](https://doc.rust-lang.org/cargo/commands/car
 1. `cargo install a11ywatch_cli`
    or
 1. `npm i a11ywatch-cli -g`
+
 
 ## CLI Commands
 
