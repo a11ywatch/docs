@@ -4,7 +4,7 @@ id: contributing
 title: Contributing
 ---
 
-You can contribute to the project in multiple ways.
+You can contribute to the project by helping report bug issues, features, and code development.
 
 ## Prerequisites
 
