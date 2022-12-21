@@ -14,7 +14,7 @@ The core API gateway for A11yWatch.
 
 ## API
 
-You can use A11yWatch either using REST, [graphQL](https://a11ywatch.com/playground), or gRPC. At the moment only the REST API is exposed to consumers.
+You can use A11yWatch either using REST, [graphQL](https://a11ywatch.com/playground), or gRPC. At the moment the gRPC API is exposed with limits to consumers.
 View the [API endpoints available](https://a11ywatch.com/api-info) to get detailed examples with curl snippets.
 
 ## ENV Configuration
@@ -36,9 +36,6 @@ EMAIL_SERVICE_PASSWORD=
 EMAIL_SERVICE_URL=
 # assigned admin ip allowed to perform all actions
 ADMIN_ORIGIN=
-# server side analytics of front-end pages
-GOOGLE_ANALYTIC_ID=
-GOOGLE_CLIENT_ID=
 # enable CDN JS scripts
 SCRIPTS_ENABLED=true
 ```

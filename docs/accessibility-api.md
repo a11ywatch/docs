@@ -14,21 +14,26 @@ For a detailed document of the API visit [A11yWatch API Page](https://a11ywatch.
 
 Replace `http://localhost:3280` with `https://api.a11ywatch.com` if using our remote service.
 
-### POST /api/crawl-stream
+### POST /api/crawl
 
 Perform a very fast multi-threaded crawl across your website for web accessibility and other critical web vitals. When using this endpoint, make sure you're sending the correct headers for authentication if using our remote API:
 
-#### Authorization is used to authentication
+#### Authorization is used for authentication
 
 ```sh
-curl -s --location --request POST 'http://localhost:3280/api/crawl-stream' \
---header 'Content-Type: application/x-www-form-urlencoded' \
---header 'Authorization: $A11YWATCH_TOKEN' \
---data-urlencode 'websiteUrl=https://jeffmendez.com'
+curl --location --request POST 'http://localhost:3280/api/crawl' \
+--header 'Transfer-Encoding: chunked' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "url": "https://a11ywatch.com",
+    "subdomains": false,
+    "tld": false,
+    "robots": false
+}'
 ```
 
 ##### Post JSON body parameters
 
-##### websiteUrl <b style={{color: "var(--ifm-color-primary)"}}>Required</b>
+##### url <b style={{color: "var(--ifm-color-primary)"}}>Required</b>
 
 The domain or url of the website to perform the initial crawl.

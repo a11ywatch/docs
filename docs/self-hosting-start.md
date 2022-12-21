@@ -27,9 +27,11 @@ services:
 In terminal you can verify if the instance started with:
 
 ```sh
- curl -s --location --request POST 'http://localhost:3280/api/crawl-stream' \
---header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'websiteUrl=https://jeffmendez.com'
+curl --location --request POST 'http://localhost:3280/api/scan' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "url": "https://a11ywatch.com"
+}'
 ```
 
 ## CLI
