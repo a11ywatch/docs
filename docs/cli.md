@@ -37,9 +37,9 @@ You can get the CLI using [`cargo`](https://doc.rust-lang.org/cargo/commands/car
 You can run the `a11ywatch -h` command to get all the options and details for the CLI.
 
 ```sh
-a11ywatch_cli 0.8.21
+a11ywatch_cli 0.8.23
 j-mendez <jeff@a11ywatch.com>
-A11yWatch accessibility CLI.
+A11yWatch web accessibility CLI.
 
 USAGE:
     a11ywatch [OPTIONS] [SUBCOMMAND]
@@ -67,8 +67,8 @@ OPTIONS:
             Get results file parsed as report list of passed / failed
 
         --results-issues
-            Get the total amount of issues between errors,warning,notice that occurred for the result
-            set
+            Get the total amount of issues between errors,warning,notice that occurred for the
+            result set
 
         --results-issues-errors
             Get the total amount of issues of type error from result set
@@ -92,16 +92,13 @@ OPTIONS:
             Print version information
 
 SUBCOMMANDS:
-    build        Build the project on the local machine [defaults to docker runtime]
-    crawl        Site wide scan a website url for issues
-    deploy       Deploy the build on remote infrastructure [BETA - defaults: GCP]
-    extract      Extract results in formats for platforms
-    help         Print this message or the help of the given subcommand(s)
-    login        Authenticate current session
-    scan         Single page scan a website url for issues
-    start        Start the application on the local machine [defaults to docker runtime]
-    stop         Stop the project on the local machine [defaults to docker runtime]
-    terminate    Destroy the build on remote infrastructure [BETA - defaults: GCP]
+    build      Build the project on the local machine [defaults to docker runtime]
+    crawl      Site wide scan a website url for issues
+    extract    Extract results in formats for platforms
+    help       Print this message or the help of the given subcommand(s)
+    scan       Single page scan a website url for issues
+    start      Start the application on the local machine [defaults to docker runtime]
+    stop       Stop the project on the local machine [defaults to docker runtime]
 ```
 
 ### Quick Start
@@ -132,12 +129,3 @@ Run the following:
 ```sh
 a11ywatch crawl --url https://a11ywatch.com -s -d --fix
 ```
-
-####
-
-## Deploying Remotely [Beta]
-
-Make sure to have [`terraform`](https://learn.hashicorp.com/tutorials/terraform/install-cli) installed.
-
-In order to deploy using terraform to a third party you need to clone the A11yWatch [terraform-provider](https://github.com/A11yWatch/terraform-provider) first and navigate into the directory before running any of the deploy commands.
-You can deploy the project with terraform with a couple steps onto any infrastructure. If you are running the remote commands make sure to configure the terraform variables to match your project id and log in to gcloud via command line (`gcloud login`). Make sure to clone the repo and cd into the root. You can also install the CLI onto a machine and start up locally as well via docker or a simple bash script. Terraform provides a more balanced remote setup since the architecture is set to scale amongst different layers while the standard `build` + `start` commands use a single docker instance.

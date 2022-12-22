@@ -14,13 +14,18 @@ Using A11yWatch on the CI can be done with the CLI. This can also be handled usi
 A11yWatch comes with a github action that gives you real results across your workflow before you ship to production.
 In the github action you can pass or fail PR's easily by configuring the `env` variables for your project.
 
-Here is an example using the action to fail if 10 accessibility errors occur on a page.
+Here is an example using the action to fail if 15 accessibility errors occur on a page.
 
 ```yml
-- uses: a11ywatch/github-action@v1.6.4
+- uses: a11ywatch/github-action@v1.12.1
   with:
     WEBSITE_URL: ${{ secrets.WEBSITE_URL }}
-    FAIL_ERRORS_COUNT: 10
+    SUBDOMAINS: true
+    TLD: true
+    FAIL_ERRORS_COUNT: 15
+    LIST: true
+    FIX: true
+    UPGRADE: false
     COMPUTER_VISION_SUBSCRIPTION_KEY: ${{ secrets.COMPUTER_VISION_SUBSCRIPTION_KEY }}
     COMPUTER_VISION_ENDPOINT: ${{ secrets.COMPUTER_VISION_SUBSCRIPTION_KEY }}
 ```

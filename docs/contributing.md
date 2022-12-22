@@ -43,7 +43,7 @@ cd a11ywatch
 
 You can use the `docker compose --file docker/docker-compose.dev.yml up` to start up the docker instance in development mode.
 
-If you want to run the production application simply `docker compose --file docker/docker-compose.yml up`. If you want to easily get started with the system use the [CLI](https://docs.a11ywatch.com/documentation/cli/) to perform actions.
+If you want to run the production application run the command `docker compose --file docker/docker-compose.yml up`.
 
 ### Local
 
