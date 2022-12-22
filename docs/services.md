@@ -21,4 +21,4 @@ The only service that is exposed outside to connections is the `web` service whi
 | [crawler](/documentation/crawler)                   | website crawler and indexer                      | 50055            |
 | [mongodb](https://www.mongodb.com)                  | core database                                    | 27017            |
 | [redis](https://www.redis.com)                      | memory database                                  | 6379             |
-| [chrome](https://hub.docker.com/r/a11ywatch/chrome) | google chrome launched via `tini`                | 9222             |
+| [chrome](https://github.com/a11ywatch/chrome) | google chrome launched via `tini`                      | 9222             |

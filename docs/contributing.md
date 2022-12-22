@@ -27,10 +27,10 @@ git clone https://github.com/a11ywatch/a11ywatch.git
 git clone https://github.com/a11ywatch/a11ywatch-core.git
 git clone https://github.com/a11ywatch/pagemind.git
 git clone https://github.com/a11ywatch/web.git
+git clone https://github.com/a11ywatch/chrome.git
 git clone https://github.com/a11ywatch/mav.git
 git clone https://github.com/a11ywatch/crawler.git
 git clone https://github.com/a11ywatch/elastic-cdn.git
-git clone https://github.com/a11ywatch/a11ywatch.git
 ```
 
 Navigate to primary repo for main setup and start.
