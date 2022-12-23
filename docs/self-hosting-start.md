@@ -4,14 +4,14 @@ id: self-hosting-start
 title: Getting started
 ---
 
-The easiest way to get started with A11yWatch is with our official managed service in the Cloud. It takes 2 minutes to start getting web accessibility and vitals across multi pages at high velocity.
+The easiest way to get started with A11yWatch is with our official managed service in the [Cloud](https://a11ywatch.com). It takes 2 minutes to start getting web accessibility and vitals across multi pages at high velocity.
 Our managed hosting can save a substantial amount of developer time and resources.
 
 The section below is for self-hosting our suite on your server and managing your infrastructure.
 
 ## Docker
 
-The simplest way to get started with the suite is to use docker. You can use the [@a11ywatch/a11ywatch](https://hub.docker.com/r/a11ywatch/a11ywatch) image to deploy the fully managed suite across linux, windows, and macOS. By the default the main entry to the graphQL, and gRPC server starts on port 3280. You can also use the gRPC instances directly following the [protobuf def here](https://github.com/a11ywatch/a11ywatch/tree/main/clients/src/proto). You can also install the suite by using the individual [images seperately](https://github.com/a11ywatch/a11ywatch/blob/main/docker/docker-compose.production.yml).
+A simple way to get started with the suite is to use docker. You can use the [@a11ywatch/a11ywatch](https://hub.docker.com/r/a11ywatch/a11ywatch) image to deploy the fully managed suite across linux, windows, and macOS. By the default the main entry to the graphQL, and gRPC server starts on port 3280. You can also use the gRPC instances directly following the [protobuf def here](https://github.com/a11ywatch/a11ywatch/tree/main/clients/src/proto). You can also install the suite by using the individual [images seperately](https://github.com/a11ywatch/a11ywatch/blob/main/docker/docker-compose.production.yml).
 
 Example with docker compose of the configuration.
 
