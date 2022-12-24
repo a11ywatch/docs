@@ -4,7 +4,7 @@ id: web
 title: Web
 ---
 
-[View Repo](https://github.com/A11yWatch/web)
+[View Repo](https://github.com/a11ywatch/web)
 
 The web project uses next.js to leverage SSG/SSR context with apollo to leverage GQL power. The marketing app and web application are tied together currently.
 

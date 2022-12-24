@@ -5,7 +5,7 @@ title: CDN Server
 sidebar_label: CDN Server
 ---
 
-[View Repo](https://github.com/A11yWatch/elastic-cdn)
+[View Repo](https://github.com/a11ywatch/elastic-cdn)
 
 The CDN server is used for storing scripts and images of websites. It also backs up content to AWS S3.
 

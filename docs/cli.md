@@ -5,7 +5,7 @@ title: Command Line Options
 sidebar_label: CLI
 ---
 
-[View Repo](https://github.com/A11yWatch/a11ywatch/tree/main/cli)
+[View Repo](https://github.com/a11ywatch/a11ywatch/tree/main/cli)
 
 The A11yWatch CLI is an easy way to get started with running, deploying, and testing web accessibility.
 

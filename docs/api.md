@@ -4,7 +4,7 @@ id: api
 title: API
 ---
 
-[View Repo](https://github.com/A11yWatch/a11ywatch-core)
+[View Repo](https://github.com/a11ywatch/a11ywatch-core)
 
 The core API gateway for A11yWatch.
 

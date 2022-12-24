@@ -4,7 +4,7 @@ title: Pagemind
 description: The A11yWatch accessibility engine for the cloud.
 ---
 
-[View Repo](https://github.com/A11yWatch/pagemind)
+[View Repo](https://github.com/a11ywatch/pagemind)
 
 Pagemind is the core for accessiblity and insights engine for A11yWatch. It uses puppeteer to run headless chrome test against websites.
 
