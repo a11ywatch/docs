@@ -39,3 +39,16 @@ ADMIN_ORIGIN=
 # enable CDN JS scripts
 SCRIPTS_ENABLED=true
 ```
+
+## Account Upgrade Programmatically
+
+You can upgrade an account and build ontop of the infrastructure by using the following endpoints.
+
+1. POST `/api/register` or `/api/login`.
+1. GET `/api/client-key` - get the stripe client token.
+1. Use key with [stripe.js](https://github.com/stripe/stripe-js) to get access to subscriptions.
+1. GET `/api/plans` - display the plans and use with a UI to select options or programmatically use one by using the `title` property as `plan` on the next step.
+1. POST `/api/upgrade` with body containing `stripeToken`, `plan`(title key from step 4), and `yearly` properties to determine if the yearly plan was selected with valid user authenticated in `header` or cookies enabled.
+
+In order to cancel a subscription use `/api/cancel-subscription` with a valid user authenticated. 
+You can upgrade and downgrade an account at any time using the endpoint between all plans with proration.
