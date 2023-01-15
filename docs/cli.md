@@ -1,5 +1,5 @@
 ---
-description: Learn how to use the Command Line Interface to self host or create CI pipelines step by step.
+description: Learn how to use the Command Line Interface to self host or create CI pipelines.
 id: cli
 title: Command Line Options
 sidebar_label: CLI
