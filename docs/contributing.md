@@ -30,7 +30,6 @@ git clone https://github.com/a11ywatch/web.git
 git clone https://github.com/a11ywatch/chrome.git
 git clone https://github.com/a11ywatch/mav.git
 git clone https://github.com/a11ywatch/crawler.git
-git clone https://github.com/a11ywatch/elastic-cdn.git
 ```
 
 Navigate to primary repo for main setup and start.
