@@ -6,7 +6,7 @@ title: Contact
 
 ## General
 
-If you have any general questions or issues please reach out to <a href="mailto:support@a11ywatch.com">support@a11ywatch.com</a>.
+If you have any general questions or issues please reach out to [A11yWatch Support](mailto:support@a11ywatch.com).
 
 ## Github
 
