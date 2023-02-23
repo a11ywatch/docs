@@ -1,10 +1,10 @@
 ---
-description: Learn how to deploy the A11yWatch platform on any machine. 
+description: Learn how to deploy the A11yWatch lite platform on any machine. 
 id: deployment
 title: Deployment
 ---
 
-AWS Fargate is our main service used to deploy all things A11yWatch but, not limited to only AWS.
+Deploy all things A11yWatch Lite on your own servers.
 
 ## Getting Started
 

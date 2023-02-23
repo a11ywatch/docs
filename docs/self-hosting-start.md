@@ -1,10 +1,10 @@
 ---
-description: Need to launch the system on your own machine? Learn how to use docker or bare metal to build a sweet accessibility monitor that can be used in private settings.
+description: Need to launch the lite system on your own machine? Learn how to use docker or bare metal to build a sweet accessibility monitor that can be used in private settings.
 id: self-hosting-start
 title: Getting started
 ---
 
-The easiest way to get started with A11yWatch is with our official managed service in the [Cloud](https://a11ywatch.com). It takes 2 minutes to start getting web accessibility and vitals across multi pages at high velocity.
+The easiest way to get started with A11yWatch lite is with our official managed service in the [Cloud](https://a11ywatch.com). It takes 2 minutes to start getting web accessibility and vitals across multi pages at high velocity.
 Our managed hosting can save a substantial amount of developer time and resources.
 
 The section below is for self-hosting our suite on your server and managing your infrastructure.

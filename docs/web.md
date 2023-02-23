@@ -1,12 +1,14 @@
 ---
-description: The A11yWatch web application getting started page.
+description: The A11yWatch web litemode application getting started page.
 id: web
 title: Web
 ---
 
 [View Repo](https://github.com/a11ywatch/web)
 
-The web project uses next.js to leverage SSG/SSR context with apollo to leverage GQL power. The marketing app and web application are tied together currently.
+This web project uses [next.js](https://nextjs.org/) to leverage SSG/SSR context with apollo and Rust to compile custom DS via wasm. 
+
+The old marketing app and web application are tied together currently for the litemode builds.
 
 ## Getting Started
 

@@ -1,5 +1,5 @@
 ---
-description: The main services that make the platform. Learn how each one works and how to make the most of it.
+description: The main services that make up A11yWatch Lite. Learn how each one works and how to make the most of it.
 id: services
 title: Services
 sidebar_label: Services

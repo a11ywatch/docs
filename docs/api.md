@@ -1,12 +1,12 @@
 ---
-description: The A11yWatch API introduction on how to configure the service.
+description: The A11yWatch lite API introduction on how to configure the service.
 id: api
 title: API
 ---
 
 [View Repo](https://github.com/a11ywatch/a11ywatch-core)
 
-The core API gateway for A11yWatch.
+The core API gateway for A11yWatch lite.
 
 ## Getting Started
 

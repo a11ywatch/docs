@@ -12,7 +12,7 @@ For a detailed document of the API visit [A11yWatch API Page](https://a11ywatch.
 
 ## Endpoints
 
-Replace `http://localhost:3280` with `https://api.a11ywatch.com` if using our remote service.
+Replace `http://localhost:3280` with `https://api.a11ywatch.com` if using our main enterprise remote service.
 
 ### POST /api/crawl
 
