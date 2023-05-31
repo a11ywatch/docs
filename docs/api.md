@@ -52,3 +52,39 @@ You can upgrade an account and build ontop of the infrastructure by using the fo
 
 In order to cancel a subscription use `/api/cancel-subscription` with a valid user authenticated. 
 You can upgrade and downgrade an account at any time using the endpoint between all plans with proration.
+
+## Clients
+
+You can use the OpenAPI clients to communicate with the API directly. Install the client with `npm i @a11ywatch/client`.
+
+```ts
+import {
+  createConfiguration,
+  ReportsApi,
+  ServerConfiguration,
+} from '@a11ywatch/client'
+
+const configuration = createConfiguration({
+    // replace localhost with api.a11ywatch.com for production
+    baseServer: new ServerConfiguration('http://localhost:3280/api', {}),
+    authMethods: {
+        bearerAuth: {
+        tokenProvider: {
+            getToken: () => {
+                // replace value with your JWT
+                return ""
+            },
+        },
+        },
+    },
+})
+
+const api = new ReportsApi(configuration)
+
+// audit an entire website chunked
+const report = await api.crawlWebsiteStream('chunked', {
+    url: 'https://jeffmendez.com',
+})
+
+console.log(report) 
+```
