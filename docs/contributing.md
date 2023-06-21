@@ -26,7 +26,7 @@ Clone all the repositories (or only the required ones).
 git clone https://github.com/a11ywatch/a11ywatch.git
 git clone https://github.com/a11ywatch/a11ywatch-core.git
 git clone https://github.com/a11ywatch/pagemind.git
-git clone https://github.com/a11ywatch/web.git
+git clone https://github.com/a11ywatch/a11ywatch-web-lite.git
 git clone https://github.com/a11ywatch/chrome.git
 git clone https://github.com/a11ywatch/mav.git
 git clone https://github.com/a11ywatch/crawler.git
