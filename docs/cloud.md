@@ -10,7 +10,7 @@ This guide walks you through setting up A11yWatch Cloud and connecting your A11y
 
 ## Step 1
 
-First create an account from [a11ywatch.com/register](https://a11ywatch.com/register).
+First create an account at [a11ywatch.com/register](https://a11ywatch.com/register) and [subscribe to a plan](https://a11ywatch.com/payments).
 
 ## Step 2
 
