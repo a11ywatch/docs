@@ -1,6 +1,6 @@
 module.exports = {
   title: "A11yWatch Docs",
-  tagline: "Learn how to consume, build, and deploy with A11yWatch.",
+  tagline: "Learn how to Consume, Build, and Integrate with A11yWatch.",
   url: "https://docs.a11ywatch.com",
   baseUrl: "/",
   onBrokenLinks: "throw",

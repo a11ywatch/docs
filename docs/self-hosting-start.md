@@ -4,10 +4,11 @@ id: self-hosting-start
 title: Getting started
 ---
 
-The easiest way to get started with A11yWatch lite is with our official managed service in the [Cloud](https://a11ywatch.com). It takes 2 minutes to start getting web accessibility and vitals across multi pages at high velocity.
+The easiest way to get started with A11yWatch is with our official managed service in the [Cloud](https://a11ywatch.com). It takes 2 minutes to start getting web accessibility and vitals across multi pages at high velocity.
 Our managed hosting can save a substantial amount of developer time and resources.
 
-The section below is for self-hosting our suite on your server and managing your infrastructure.
+The section below is for self-hosting our suite using A11yWatch Lite on your server and managing your infrastructure.
+A11yWatch Lite is an older version of the system that does not receive feature updates anymore.
 
 ## Docker
 
