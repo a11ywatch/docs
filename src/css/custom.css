@@ -8,10 +8,22 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-code-font-size: 95%;
+  --ifm-color-primary: #0070f3;
+}
+
+[data-theme='dark']:root {
+  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #fff;
+  --ifm-menu-color-active: #0070f3;
+  --ifm-color-secondary: #e5dfdf;
+}
+
+[data-theme='dark'] .getStarted_src-pages-styles-module:hover {
+  color: #000 !important;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
+  background-color: rgb(184, 184, 184);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);

@@ -39,7 +39,7 @@ curl --location --request POST 'http://localhost:3280/api/scan' \
 
 The CLI allows for installing and started the application in multiple fashions.
 
-You can use the CLI to start locally via nodejs, Docker Standalone, or Docker Multi Service.
+You can use the CLI to start locally via nodejs, bun, Docker Standalone, or Docker Multi Service.
 
 The differences between the standalone and multi is that the standalone combines all of the micro-services into one launcher to use while
 the multi service starts each individually.

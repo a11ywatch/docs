@@ -25,7 +25,7 @@ apt-get update && apt upgrade -y && apt-get install -y --no-install-recommends b
 
 ## Getting Started
 
-You can get the CLI using [`cargo`](https://doc.rust-lang.org/cargo/commands/cargo-install.html) or [npm](https://nodejs.org/en/download/).
+You can get the CLI using [cargo](https://doc.rust-lang.org/cargo/commands/cargo-install.html) or [npm](https://nodejs.org/en/download/).
 
 1. `cargo install a11ywatch_cli`
    or
